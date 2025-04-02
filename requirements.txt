@@ -1,0 +1,7 @@
+opencv-python-headless
+PyQt5
+pillow
+pytesseract
+numpy
+sympy
+pygments
