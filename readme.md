@@ -29,3 +29,51 @@ Overlay AI is a PyQt5-based tool for capturing and processing screen regions. It
    cd overlay-ai
 
    
+2.Install Dependencies: Install the required Python libraries using pip:
+
+pip install -r requirements.txt
+
+3. Install Tesseract:
+
+Download and install Tesseract OCR from Tesseract GitHub.
+Add Tesseract to your system's PATH.
+
+Usage
+Run the Program:
+   python main.py
+Select a Region:
+   Drag the overlay window to the desired screen region.
+Ensure the overlay window is fully within one monitor.
+Capture & Process:
+
+Click the "Capture & Process" button to capture the region and process it with OCR.
+View Results:
+
+The extracted text will be displayed in a dialog box.
+Perform tasks like solving, improving, or explaining the extracted text.
+
+Known Issues
+Multi-Monitor Setups:
+
+The overlay window must be fully within a single monitor for proper capture.
+Misaligned monitors in the display settings may cause incorrect captures.
+No Text Found:
+
+Ensure the overlay window contains visible text before capturing.
+
+
+Contributing
+Contributions are welcome! If you'd like to improve this project:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Submit a pull request with a detailed description of your changes.
+
+Acknowledgments
+PyQt5 for the GUI framework.
+mss for screen capturing.
+Tesseract OCR for text recognition.
+
+
+
+
